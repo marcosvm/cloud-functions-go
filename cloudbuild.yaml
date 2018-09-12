@@ -11,9 +11,8 @@ steps:
   args: ["install", "--ignore-scripts", "-save", "local_modules/execer"]
 - name: "gcr.io/cloud-builders/gcloud"
   args: [
-    "beta",
     "functions",
-    "${_NAME}",
+    "deploy","${_NAME}",
     "--entry-point","${_ENTRY_POINT}",
     "--source","./",
     "--trigger-http",
