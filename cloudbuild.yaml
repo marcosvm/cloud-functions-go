@@ -13,7 +13,7 @@ steps:
   args: [
     "beta",
     "functions",
-    "deploy","${_NAME}",
+    "${_NAME}",
     "--entry-point","${_ENTRY_POINT}",
     "--source","./",
     "--trigger-http",
