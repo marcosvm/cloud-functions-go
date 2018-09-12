@@ -1,7 +1,7 @@
 steps:
-- name: "grc.io/cloud-builders/go"
+- name: "gcr.io/cloud-builders/go"
   args: ["version"]
-- name: "grc.io/cloud-builders/node"
+- name: "gcr.io/cloud-builders/node"
   args: ["--version"]
 - name: "gcr.io/cloud-builders/go"
   args: ["build", "-tags","node","main.go"]
