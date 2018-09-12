@@ -1,4 +1,11 @@
+*.go
+*.md
+*.sh
+/examples
+/nodego
+Makefile
+Vagrantfile
 build
-node_modules
-main
 function.zip
+main
+node_modules
